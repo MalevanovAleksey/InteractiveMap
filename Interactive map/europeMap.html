@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/defaultEurope.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+    <title>Интерактивная карта Европы</title>
+</head>
+<body>
+    <header>
+        <div class="headContent">
+            <div class="logo">
+                <a href="aboutProject.html"><img src="flags/logo.png" style="width:100px;"></a> </div>
+            <ul class="contentMenu">
+            <li> <a href="europeMap.html">Интерактивная карта Европы</a> </li>
+            <li>	
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Виды карт</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="worldMap.html">Карта мира</a>
+                      <a href="europeMap.html">Карта Европы</a>
+                      <a href="index.html">Карта России</a>
+                      
+                    </div>
+                  </div>
+            </li>
+            <li>	<a href="aboutProject.html">О проекте</a> </li>
+            </ul>
+        </div>
+        </header>
+    <div class="flex-container">
+        <div class="wrapper">
+    
+            <div id="map"></div>
+        </div>
+
+
+        <div>
+            <p class="pTop"> <input type="serach" id="search_input" placeholder="Поиск по названию региона"> </p>
+            <p class="pTop">Основные регионы</p>
+            <div class="menu">
+                <ul class="for-ul">
+                    <li> <div class="buttons__button_one">Западная Европа</div></li>
+                    <li><div class="buttons__button_two">Восточная Европа</div></li>
+                    <li><div class="buttons__button_three">Северная Европа</div></li>
+                    <li><div class="buttons__button_four">Южная Европа</div></li>
+                </ul>
+              </div>
+              </div>
+
+
+              <!-- Первое модальное окно -->
+	  <div class="modal" data-modal="one"> 
+		<div class="modal__wrapper"> 
+		  <div class="modal__body"> 
+			<div class="modal__inner"> 
+			  <div class="modal__close"></div>
+			  <div class="modal__title">Западная Европа</div>
+			  			<div class="modal__text">
+				  			<div class="flex-row  row-padding"><p>Западная Европа — термин, используемый для обозначения группы государств Европы, объединённых по политическому или культурно-географическому признаку.</p></div>
+							<div class="flex-row row-padding"><p>В годы Холодной войны к государствам Западной Европы относили членов блока NATO — OTAN, в то время как восточно-европейские государства составляли Организацию Варшавского договора (ОВД).</p></div>
+							<div class="flex-row row-padding"><p>После упразднения ОВД закрепилось выделение в Европе северного, южного и центрального региона, куда были отнесены государства, ранее входившие как в восточный, так и в западный блок. Соответственно, к государствам Западной Европы стали теперь относить только Бельгию, Люксембург, Монако, Нидерланды и Францию.</p></div>
+							<div class="flex-row row-border row-padding"><p>Включает: </p> <p class="margin-left">Австрия, Бельгия, Великобритания, Германия, Ирландия, Лихтенштейн, Люксембург, Монако, Нидерланды, Франция, Швейцария</p></div>
+							<div class="flex-row row-border row-padding"><p>Языки:</p> <p class="margin-left">Английский, Французский, Немецкий, Нидерландский, Испанский, Португальский, Итальянский, Ирландский, Каталанский </p></div>
+							<p><a href="https://ru.wikipedia.org/wiki/Западная_Европа" target="_blank" class="row-padding info">Подробнее...</a></p>
+						</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  
+	  <!-- Второе модальное окно -->
+	  <div class="modal" data-modal="two">
+		<div class="modal__wrapper">
+		  <div class="modal__body">
+			<div class="modal__inner">
+			  <div class="modal__close"></div>
+			  <div class="modal__title">Восточная Европа</div>
+			  <div class="modal__text">
+                <div class="flex-row  row-padding"><p>Восточная Европа в узком смысле слова — географически центральная и северо-восточная Европа, населённая преимущественно славянскими народами, составляющая 2/3 территории этого подконтинента Евразии. Термин очень контекстно-зависим и даже изменчив; как отмечено в документе Организации Объединённых Наций, есть «почти так же много определений Восточной Европы, как областей науки» и «каждая оценка пространственных тождеств — по существу социальная и культурная конструкция».</p></div>
+              <div class="flex-row row-padding"><p>Восточная Европа — область, находящаяся между Центральной Европой и Западной Азией, с отличительными чертами, присущими Византии, сформировавшимися под сильным влиянием Османской империи. Таким образом, европейскими историками признаётся преемственность крупнейших стран Восточной Европы культуре Эллинской, Римской и Византийской империй. Поэтому даже в колониальный период Западной Европы в Англии и Франции империями в полном смысле считались только Российская, Германская и Австрийская, находившиеся большей частью восточнее Эльбы. Империи Востока противопоставлялись цивилизациям Запада.</p></div>
+              <div class="flex-row row-border row-padding"><p>Включает: </p> <p class="margin-left">Белоруссия, Болгария, Венгрия, Молдавия, Польша, Россия, Румыния, Словакия, Украина, Чехия </p></div>
+              <div class="flex-row row-border row-padding"><p>Языки:</p> <p class="margin-left">Польский, Чешский, Болгарский, Сербский, Хорватский, Словацкий, Украинский, Белорусский, Венгерский</p></div>
+              <p><a href="https://ru.wikipedia.org/wiki/Восточная_Европа" target="_blank" class="row-padding info">Подробнее...</a></p>
+          </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!-- Третье модальное окно -->
+	  <div class="modal" data-modal="three"> 
+		  <div class="modal__wrapper"> 
+			<div class="modal__body"> 
+			  <div class="modal__inner"> 
+				<div class="modal__close"></div>
+				<div class="modal__title">Северная Европа</div>
+				<div class="modal__text">
+                    <div class="flex-row  row-padding"><p>Северная Европа — культурно-географический регион в Европе, включающий в себя государства Скандинавии и прилегающие территории (страны и регионы). Это обширный и в то же время сравнительно слабонаселённый регион, по сравнению с другими регионами Европейского континента.</p></div>
+                  <div class="flex-row row-padding"><p>Северная Европа является слабо определенным географический регион в Европа. Более узкие определения могут описать Северную Европу как находящуюся примерно к северу от южного побережья Балтийское море, что составляет около 54 ° с.ш., или может быть основано на других географических факторах, таких как климат и экология. Более широкое определение включало бы территорию Европы к северу от Альпы, и Северо-Запад России. (но исключая Восточная Европа).</p></div>
+                  <div class="flex-row row-border row-padding"><p>Включает: </p> <p class="margin-left">Эстония, Латвия, Литва, Дания, Финляндия, Исландия, Норвегия, Швеция</p></div>
+                  <p><a href="https://ru.wikipedia.org/wiki/Западная_Европа" target="_blank" class="row-padding info">Подробнее...</a></p>
+              </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			  <!-- Четвертое модальное окно -->
+			  <div class="modal" data-modal="four"> 
+				<div class="modal__wrapper"> 
+				  <div class="modal__body"> 
+					<div class="modal__inner"> 
+					  <div class="modal__close"></div>
+					  <div class="modal__title">Южная Европа</div>
+                      <div class="modal__text">
+                        <div class="flex-row  row-padding"><p>Южная Европа, Юг Европы, согласно ряду современных классификаций — историко-политико-культурно-географический регион в Европе, расположенный на юге Европы, включающий в себя государства на берегу Средиземного моря и Пиренейского полуострова (Португалия, Испания, Андорра), Монако, государства, расположенные на Апеннинском полуострове (Италия, Ватикан, Сан-Марино), Грецию, а также островные государства Мальта и Кипр.</p></div>
+                      <div class="flex-row row-padding"><p>Иногда в состав Южной Европы также включают Хорватию, Черногорию, Сербию, Албанию, Боснию и Герцеговину, а также европейскую часть Турции. К Южной Европе относится также квазигосударственное образование Мальтийский орден (сегодняшняя территория — всего один особняк в Риме и резиденция на Мальте).</p></div>
+                      <div class="flex-row row-border row-padding"><p>Включает: </p> <p class="margin-left">Албания, Андора, Ватикан, Греция, Испания, Италия, Кипр, Мальта, Португалия, Сербия, Словения, Хорватия, Черногория, Турция, Франция</p></div>
+                      <div class="flex-row row-border row-padding"><p>Языки:</p> <p class="margin-left">Итальянский, Латинский, Французский, Немецкий, Словенский, Мальтийский </p></div>
+                      <p><a href="https://ru.wikipedia.org/wiki/Западная_Европа" target="_blank" class="row-padding info">Подробнее...</a></p>
+                  </div>
+				  </div>
+				</div>
+			  </div>
+			  </div>
+	
+
+
+	  <script src="js/modal.js" type="text/javascript"></script>
+	  <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/raphael.js" type="text/javascript"></script>
+    <script src="js/pathEurope.js" type="text/javascript"></script>
+    <script src="js/initEurope.js" type="text/javascript"></script>
+    <script src="js/script.js"type="text/javascript"></script>
+    
+    
+   <input type="hidden" id="map_icons_type_input" readonly value="flagsWorld">
+    <input type="hidden" id="map_type_input" readonly value="europe">
+  <script src="js/search.js" type="text/javascript"></script>
+    
+</body>
+</html>

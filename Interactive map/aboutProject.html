@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<link rel="stylesheet" href="css/defaultAbout.css"/> 
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet"> --> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+    <title>О проекте</title>
+</head>
+<body>
+    <header>
+        <div class="headContent">
+            <div class="logo">
+                <a href="aboutProject.html"><img src="flags/logo.png" style="width:100px;"></a> </div>
+            <ul class="contentMenu">
+            <li> <a href="index.html">Интерактивная карта России</a> </li>
+            <li>	
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Виды карт</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="worldMap.html">Карта мира</a>
+                        <a href="europeMap.html">Карта Европы</a>
+                        <a href="index.html">Карта России</a>
+                    </div>
+                  </div>
+            </li>
+            <li>	<a href="aboutProject.html">О проекте</a> </li>
+            </ul>
+        </div>
+        </header>   
+
+
+    <section>
+<div class="topContent flex-container-row">
+    <div class="flex-item">
+    <p class="padding paddingB font-30">Интерактивная карта InMap</p>
+    <p class="paddingP paddingB font-20" >Общедоступная система для онлайн-просмотра интерактивных карт.</p>
+    <p class="paddingP font-20"> Мы визуализируем и структурием данные , представляя их в интерактивном формате с возможностью выбора регионов и городов.</p>
+</div>
+</div>
+
+    <div class="center-content flex-container-column">
+    <div class="paddingAll font">
+        <p class="paddingB font-30">Ключевые параметры</p>
+        <p class="font-20">по которым вы можете изучать статистику в конкретных странах и регионах</p>
+</div>
+        <div class="statistic flex-container-space-around font-24"> 
+        <div class="flex-column-center">
+            <img src="img/flag2.png"/>
+            <p>Страна</p>
+            <div class="containerOpis">
+            <p class="opis">Показывает территорию, имеющую политические и физико-географические границы</p>
+            </div>
+        </div>
+        <div class="flex-column-center">
+            <img  src="img/stol.png" />
+            <p>Столица</p>
+            <div class="containerOpis">
+            <p class="opis">Показывает главный город государства, в котором обычно размещаются высшие органы государственной власти</p>
+            </div>
+
+        </div>
+        <div class="flex-column-center">
+            <img src="img/people.png"/>
+            <p>Население</p>
+            <div class="containerOpis">
+            <p class="opis">Показывает совокупность людей живущих на конкретной территории</p>
+           </div>
+        </div>
+        <div class="flex-column-center">
+            <img src="img/ter.png"/>
+            <p>Территория</p>
+            <div class="containerOpis">
+            <p class="opis">Показывает поверхность суши, на которую распространяется юрисдикция государства</p>
+        </div>
+        </div>
+        </div>
+    </div>
+
+   <div class="bottom-content">
+
+    <div class="paddingAll font paddingTop">
+        <p class="paddingB font-30">Смотрите актуальную статистику</p>
+        <p class="font-24">Информация по всем показателям хранится в <a href="https://ru.wikipedia.org/wiki/Заглавная_страница">Википедии</a></p>
+</div>
+        <div class="statistic flex-container-space-around font-24"> 
+        <div class="flex-column-center">
+            <img src="img/world.png"/>
+            <a href="worldMap.html">В мире</a>
+            <div class="containerOpis">
+            <p class="opis">Смотрите и изучайте показатели государств</p>
+            </div>
+        </div>
+        <div class="flex-column-center">
+            <img  src="img/europe.png" />
+            <a href="europeMap.html">В Европе</a>
+            <div class="containerOpis">
+            <p class="opis">Ориентируйтесь на карте Европы и сравнивайте информацию</p>
+            </div>
+
+        </div>
+        <div class="flex-column-center">
+             <img src="img/russia.png"> </a>
+            <a href="index.html">В России</a>
+            <div class="containerOpis">
+            <p class="opis">Портрет каждого региона с детальной информацией</p>
+           </div>
+        </div>
+        
+        </div>
+
+   </div>
+
+    </section>
+
+
+    <bottom>
+        <div class="btm paddingAll font paddingTop">
+       <p><img src="img/location1.png" style="width:14px"/> Карты и данные: <a href="https://mapsvg.com/maps/world">https://mapsvg.com/maps/world</a> 
+        <a href="https://mapsvg.com/maps/russia">, https://mapsvg.com/maps/russia</a> 
+        </p>    
+        <p> <img src="img/mail.png" style="width:14px"/> <a href="gryskova.veronika@gmail.com" >Почта: gryskova.veronika@gmail.com </a></p>
+            <p><img src="img/copyright1.png" style="width:14px"/> 2021 Грыськова Вероника ЭЖД-19120</p>
+        </div>
+    </bottom>
+
+        <script src="js/script.js"type="text/javascript"></script>
+</body>
+</html>
